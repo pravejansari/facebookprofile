@@ -1,0 +1,77 @@
+.leftPostHeading > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.leftPostHeading {
+  display: flex;
+  margin: 10px;
+}
+
+.rightPostHeading {
+  margin: 10px;
+}
+
+.name-date > p {
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.postHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postContainer > img {
+  width: 100%;
+  height: 300px;
+  margin: 10px 0 0px 0;
+}
+
+.postContainer {
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 0px;
+  margin-bottom: 10px;
+  position: relative;
+  top: 40px;
+  width: 90%;
+  background-color: white;
+}
+
+.like-comment {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.reactSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reactOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.likeBtn {
+  filter: invert(50%);
+}
+
+.shareBtn {
+  transform: scaleX(-1);
+  filter: invert(50%);
+}
+.commentBtn {
+  filter: invert(50%);
+}
+.reactOption > h5 {
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+}

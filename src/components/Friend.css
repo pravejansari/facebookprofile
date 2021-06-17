@@ -1,0 +1,24 @@
+.friendComp {
+  display: flex;
+  flex-direction: column;
+}
+
+.friendComp > img {
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.friendComp > p {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 960px) {
+  .friendComp > img {
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    cursor: pointer;
+  }
+}

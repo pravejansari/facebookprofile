@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  width: 61%;
+  justify-content: space-between;
+  position: relative;
+  top: -38%;
+  left: 19%;
+}
+
+.leftNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+  /* margin: 10px; */
+}
+
+.navbarOption {
+  display: flex;
+  padding: 0 15px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.navbarOption:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.rightNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.addToStory {
+  display: flex;
+  margin-right: 20px;
+  color: white;
+  background-color: rgba(30, 128, 240, 0.753);
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  /* align-items: center; */
+}
+
+.editProfile {
+  display: flex;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  /* align-items: center; */
+}
+
+.more {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar {
+    width: 100%;
+    top: -27%;
+    left: -2%;
+  }
+}
